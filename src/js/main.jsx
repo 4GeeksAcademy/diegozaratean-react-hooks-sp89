@@ -10,9 +10,9 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
-
+import Player from './components/player';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Player/>
   </React.StrictMode>,
 )
